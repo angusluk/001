@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-08T04:39:26.428Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="zgSGZ8gdOQwe4OSkakBs" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-08T04:42:36.878Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="vJMaFUCDer_4WxICLvrn" version="21.7.2" type="github">
   <diagram name="Page-1" id="vzvxMs07BYdyHyJIlFF6">
-    <mxGraphModel dx="2099" dy="1949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1781" dy="1754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -45,8 +45,8 @@
         <mxCell id="aNHiOs-d_WxfzFdKZ3zT-18" value="Cross AZ Replication" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="856" y="330" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aNHiOs-d_WxfzFdKZ3zT-19" value="AWS EC2 Auto Scaling" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="659.32" y="330" width="150" height="30" as="geometry" />
+        <mxCell id="aNHiOs-d_WxfzFdKZ3zT-19" value="Web Server&lt;br&gt;AWS EC2 Auto Scaling Group" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="644.32" y="325" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aNHiOs-d_WxfzFdKZ3zT-20" value="Mobile/Tablet client" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.smartphone;" parent="1" vertex="1">
           <mxGeometry x="10" y="252" width="50" height="69" as="geometry" />
@@ -95,10 +95,10 @@
         <mxCell id="aNHiOs-d_WxfzFdKZ3zT-45" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;" parent="1" vertex="1">
           <mxGeometry x="-40" y="-180" width="110" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="jyVRc3ctrJTomuwZx3ZS-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.76;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jyVRc3ctrJTomuwZx3ZS-2" target="aNHiOs-d_WxfzFdKZ3zT-43">
+        <mxCell id="jyVRc3ctrJTomuwZx3ZS-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.76;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="jyVRc3ctrJTomuwZx3ZS-2" target="aNHiOs-d_WxfzFdKZ3zT-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jyVRc3ctrJTomuwZx3ZS-2" value="AWS CloudWatch" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cloudwatch;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="1">
+        <mxCell id="jyVRc3ctrJTomuwZx3ZS-2" value="AWS CloudWatch" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cloudwatch;fillColor=#759C3E;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="820" y="30" width="68.31" height="77" as="geometry" />
         </mxCell>
       </root>
